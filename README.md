@@ -9,7 +9,7 @@ For javascript use the AirBNB style guide https://github.com/airbnb/javascript
 ### Defining Human friendly variables and functions
 Bad
 ```python
-def c_disc(t,h,l)
+def c_disc(t,h,l):
   return (t + h + l)
 ```
 
