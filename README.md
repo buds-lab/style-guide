@@ -41,7 +41,7 @@ def calculate_discomfort (temperature, humidity, light):
 ### Please Avoid
 
 - Using `__trailing` of `__dunderscores__` in definitions. These should just be reserved for python
-- Lines longer than 79 characters. User backslashes `\` to break the lines
+- Lines longer than 79 characters. User backslashes `\` in python to break the lines
 - Unecessary comments `x = x + 1                 # Increment x`
 - Acronyms: `text_message_request` is much better than `sms_request`
 - `UPPERCASE`: It's annoying, difficult to read, and should be reserved for situations like calling an database where it's already labeled like that
@@ -70,5 +70,7 @@ Because we use python most prominently with influx DB, we will follow the python
 - ids: `lower-kebab-case`
 - classes: `lower-kebab-case`
 - file names: `lower-kebab-case`
+
+For css libraries, I recommend Tachyons https://tachyons.io/ over bootstrap
 
 
