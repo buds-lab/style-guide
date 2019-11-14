@@ -33,7 +33,7 @@ def calculate_discomfort (temperature, humidity, light):
 
         :return: discomfort: discomfort metric
         :rtype: float
-        """
+    """
   
   return (temperature + humidity + light)
 ```
