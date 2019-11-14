@@ -45,6 +45,7 @@ def calculate_discomfort (temperature, humidity, light):
 - Unecessary comments `x = x + 1                 # Increment x`
 - Acronyms: `text_message_request` is much better than `sms_request`
 - `UPPERCASE`: It's annoying, difficult to read, and should be reserved for situations like calling an database where it's already labeled like that
+- Single letter definitions. Eg don't write `x = 5`, unless it's something very obvious like in a python lambda, js map, or a plot
 
 ## Python Variable Names
 
@@ -60,6 +61,8 @@ def calculate_discomfort (temperature, humidity, light):
 - functions: `lowerCamelCase`
 - variables: `lowerCamelCase`
 - file names: `lowerCamelCase.js`
+
+When defining js variables avoid using `var`. It's better to stick to `const` and `let`
 
 ## InfluxDB Variable Names
 
